@@ -2,15 +2,45 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(182, 185, 3, 0.3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .main{
     width: 360px;
     height: 290px;
-    background-color: rgb(206, 147, 147);
-    color: #fff;
-    justify-content: center;
-    align-items: center;
+    background-color: rgba(190, 161, 161, 0.3);
+    color: rgb(0, 0, 0);
     margin-left: 300px;
     margin-top: 200px;
     border-radius: 10px;
+}
+.header{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+   
+}
+.header h1{
+    margin-top: 12px;
+}
+.inputs{
+    padding: 15px;
+}
+.inputs label{
+    font-family: sans-serif;
+
+}
+
+.inputs input{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+
+}
+.inputs button{
+    border: none;
+   
 }
